@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&Roboto');
+
+// color palette 
+$color-1: #5e6263; // Dark Grey - Action color
+$color-2: #b5ee27; // Lime Green
+$color-3: #a2a6a7; // Medium Grey
+$color-4: #dadedf; // light grey
+$color-5: #ffffff; // white
+$color-6: #1f2021; //really dark grey
+
+// additional colors
+$success: #b5ee27; // green
+$alert: $color-3;  // medium grey
+
+// fonts
+$primary-font:'Roboto', sans-serif;
+$secondary-font: 'Major Mono Display', monospace;
+
+h1, h2, h3 {
+	font-family: $secondary-font;
+}
+
+
