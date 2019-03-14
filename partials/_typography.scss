@@ -18,6 +18,20 @@ $secondary-font: 'Major Mono Display', monospace;
 
 h1, h2, h3 {
 	font-family: $secondary-font;
+	padding-left: 2rem;
+}
+h1 {
+	font-size: 4rem;
+	margin-top: 2rem;
+	padding-left: 2rem;
+	color: $color-2;
+}
+
+.summary a {
+	color: $color-2;
+}
+.summary a:hover {
+	color: $color-5;
 }
 
 
