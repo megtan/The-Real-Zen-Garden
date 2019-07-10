@@ -16,22 +16,65 @@ $alert: $color-3;  // medium grey
 $primary-font:'Roboto', sans-serif;
 $secondary-font: 'Major Mono Display', monospace;
 
+//headings
+$upper: uppercase;
+
 h1, h2, h3 {
 	font-family: $secondary-font;
-	padding-left: 2rem;
+	text-transform: $upper;
 }
 h1 {
-	font-size: 4rem;
+	font-size: 5rem;
 	margin-top: 2rem;
+	margin-bottom: 0;
 	padding-left: 2rem;
 	color: $color-2;
 }
 
+header h2{
+	color: $color-5;
+	margin: 0;
+	padding-left: 2rem;
+}
+h3 {
+	font-size: 2rem;
+}
 .summary a {
 	color: $color-2;
 }
 .summary a:hover {
 	color: $color-5;
 }
-
-
+.participation a {
+	color: $color-2;
+}
+.participation a:hover  {
+	color: $color-5;
+}
+.requirements a {
+	color: $color-2;
+}
+.requirements a:hover {
+	color: $color-5;
+}
+li {
+	list-style-type: none;
+}
+.design-selection a {
+	color: $color-5;
+}
+.design-selection a:hover {
+	color: $color-2;
+}
+.design-archives a {
+	color: $color-2;
+}
+.design-archives a:hover {
+	color: $color-5;
+}
+.zen-resources a {
+	color: $color-3;
+}
+.zen-resources a:hover {
+	color: $color-2;
+}
